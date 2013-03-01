@@ -1,0 +1,19 @@
+{
+  "min": {
+    "js": {
+      "src": [
+          "out/vendor/jquery.js",
+          "out/vendor/log.js",
+          "out/vendor/modernizr.js",
+          "out/js/script.js"
+      ],
+      "dest": "out/js/all.min.js"
+    }
+  },
+  "cssmin": {
+    "all": {
+      "src": ["out/css/screen.css"],
+      "dest": "out/css/screen.min.css"
+    }
+  }
+}
